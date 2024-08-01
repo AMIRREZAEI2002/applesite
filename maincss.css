@@ -104,25 +104,25 @@
 
 }
 .personpro{
-    background-image: url("img/persons/store-chat-specialist-icon-202309.jpg");
+    background-image: url("store-chat-specialist-icon-202309.jpg");
     background-position: center bottom; /* قرار دادن تصویر در مرکز افقی و پایین */
     background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
     background-size: cover;
 }
 .personpro2{
-    background-image: url("img/persons/store-card-50-TAA-202310.jpg");
+    background-image: url("store-card-50-TAA-202310.jpg");
     background-position: center bottom; /* قرار دادن تصویر در مرکز افقی و پایین */
     background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
     background-size: cover;
 }
 .imgax1{
-    background-image: url("img/persons/app.jpg");
+    background-image: url("app.jpg");
     background-position: center bottom; /* قرار دادن تصویر در مرکز افقی و پایین */
     background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
     background-size: cover;
 }
 .imgax2{
-    background-image: url("img/persons/react.jpg");
+    background-image: url("react.jpg");
     background-position: center bottom; /* قرار دادن تصویر در مرکز افقی و پایین */
     background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
     background-size: cover;
