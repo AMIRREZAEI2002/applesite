@@ -1,0 +1,220 @@
+.ax{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.matn{
+    margin-top: 13px;
+}
+.mt-7{
+    margin-top: 100px;
+}
+.inline{
+    display: inline;
+}
+.bold{
+    font-weight: bold;
+}
+.nm{
+    margin-bottom: -5px;
+}
+.nm2{
+    margin-bottom: 1px;
+}
+.smalltx{
+    font-size: small;
+}
+.bigtx{
+    font-size: large;
+}
+.center{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.keepCenter{
+    align-items: center;
+    justify-content: center;
+}
+.display-6{
+    font-size: x-large;
+}
+.gold{
+    color: goldenrod;
+}
+.blackproduct{
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    width: 280px;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition-property: width hight;
+    transition-duration: 0.6s;
+}
+.blackproduct:hover{
+    height: 409px;
+    
+}
+.whiteproduct:hover{
+    height: 409px;
+   
+}
+.whiteproduct{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 280px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition-property: width hight;
+    transition-duration: 0.6s;
+}
+.whiteproduct2{
+    background-color: rgb(0, 0, 0);
+    height: 180px;
+    width: 260px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 23px;
+    margin-right: 4px;
+}
+.logopic{
+    width: 20px;
+    margin-left: 0px;
+}
+.imgproduct{
+    height: 95px;
+}
+.axproduct{
+    position: absolute;
+    width: 260px;
+    top: 150px;
+    
+}
+.axproduct2{
+    position: absolute;
+    right: 5px;
+    width: 270px;
+    top: 100px;
+    
+}
+.shadow{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
+}
+.produits2{
+    position: absolute;
+    top: 3px;
+    left: 8px;
+
+}
+.personpro{
+    background-image: url("img/persons/store-chat-specialist-icon-202309.jpg");
+    background-position: center bottom; /* قرار دادن تصویر در مرکز افقی و پایین */
+    background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
+    background-size: cover;
+}
+.personpro2{
+    background-image: url("img/persons/store-card-50-TAA-202310.jpg");
+    background-position: center bottom; /* قرار دادن تصویر در مرکز افقی و پایین */
+    background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
+    background-size: cover;
+}
+.imgax1{
+    background-image: url("img/persons/app.jpg");
+    background-position: center bottom; /* قرار دادن تصویر در مرکز افقی و پایین */
+    background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
+    background-size: cover;
+}
+.imgax2{
+    background-image: url("img/persons/react.jpg");
+    background-position: center bottom; /* قرار دادن تصویر در مرکز افقی و پایین */
+    background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
+    background-size: cover;
+}
+.dota{
+    margin-right: 5px;
+    border-radius: 30px;
+    
+}
+.text{
+    width: 150px;
+}
+.scroll-wrapper {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Hide overflow */
+}
+
+.scroll-container {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition */
+    white-space: nowrap; /* Prevent wrapping */
+    width: 100%; /* Full width */
+}
+
+.product-wrapper {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 20vw; /* 20% of viewport width */
+    box-sizing: border-box;
+    margin: 0; /* Remove margin from columns */
+}
+
+.whiteproduct, .blackproduct {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: white; /* Default color */
+}
+
+.blackproduct {
+    background-color: black;
+    color: white;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #c9c9c9;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+    border-radius: 50%;
+}
+
+.scroll-button.left {
+    left: 0;
+}
+
+.scroll-button.right {
+    right: 0;
+}
+
+/* Hide scrollbar */
+.scroll-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+.scroll-container {
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+    scrollbar-width: none;  /* For Firefox */
+}
